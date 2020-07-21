@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "demo": {
+      "css": [
+        "http://localhost:8080/dist/demo.css"
+      ],
+      "js": [
+        "http://localhost:8080/dist/demo.js"
+      ]
+    }
+  }
+}

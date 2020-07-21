@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/dist/demo.css">
+
+    <title>OS2ConTicki</title>
+  </head>
+  <body>
+    <div id="app">#app</div>
+    <div id="app1">#app1</div>
+
+    <script src="/dist/demo.js"></script>
+    <script>
+     Conference.render({
+       element: document.getElementById('app'),
+       url: 'https://admin.os2conticki.srvitkhulk.itkdev.dk/api/conference/ed490668-3cd1-483a-8035-f4438646dce2'
+     })
+     Conference.render({
+       element: document.getElementById('app1'),
+       url: 'https://admin.os2conticki.srvitkhulk.itkdev.dk/api/conference/9b082c6e-c6eb-4407-a5a9-df6d72c981ac'
+     })
+    </script>
+  </body>
+</html>
