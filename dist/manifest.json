@@ -1,4 +1,4 @@
 {
-  "dist/demo.css": "http://localhost:8080/dist/demo.css",
-  "dist/demo.js": "http://localhost:8080/dist/demo.js"
+  "dist/demo.css": "/dist/demo.css",
+  "dist/demo.js": "/dist/demo.js"
 }
